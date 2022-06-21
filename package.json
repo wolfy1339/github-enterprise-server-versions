@@ -11,7 +11,7 @@
   "author": "Gregor Martynus (https://twitter.com/gr2m)",
   "license": "ISC",
   "dependencies": {
-    "node-fetch": "^2.6.1"
+    "node-fetch": "^3.2.6"
   },
   "release": {
     "branches": [

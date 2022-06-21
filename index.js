@@ -1,6 +1,6 @@
-module.exports = { getCurrentVersions };
+export { getCurrentVersions };
 
-const fetch = require("node-fetch");
+import fetch from "node-fetch"
 
 const ENTERPRISE_VERSIONS_URL =
   "https://raw.githubusercontent.com/github/docs/main/lib/enterprise-dates.json";
